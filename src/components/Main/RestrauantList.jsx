@@ -7,7 +7,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-korean.png" alt="한식" className="category-icon"/>
+            <img src="templates\category-korean.png" alt="한식" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">피양콩할마니</h3>
@@ -20,7 +20,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-chinese.png" alt="중식" className="category-icon"/>
+            <img src="templates\category-chinese.png" alt="중식" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">친친</h3>
@@ -30,7 +30,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-japanese.png" alt="일식" className="category-icon"/>
+            <img src="templates\category-japanese.png" alt="일식" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">잇쇼우</h3>
@@ -42,7 +42,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-western.png" alt="양식" className="category-icon"/>
+            <img src="templates\category-western.png" alt="양식" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">이태리키친</h3>
@@ -52,7 +52,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-asian.png" alt="아시안" className="category-icon"/>
+            <img src="templates\category-asian.png" alt="아시안" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">호아빈 삼성점</h3>
@@ -62,7 +62,7 @@ function RestrauantList() {
 
         <li className="restaurant">
           <div className="restaurant__category">
-            <img src="./category-etc.png" alt="기타" className="category-icon"/>
+            <img src="templates\category-etc.png" alt="기타" className="category-icon"/>
           </div>
           <div className="restaurant__info">
             <h3 className="restaurant__name text-subtitle">도스타코스 선릉점</h3>
