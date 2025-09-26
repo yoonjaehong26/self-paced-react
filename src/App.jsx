@@ -1,9 +1,9 @@
 import styles from './App.module.css';
-import HomeHeader from './components/Header/HomeHeader.jsx';
-import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter.jsx';
-import RestaurantList from './components/Main/RestaurantList.jsx';
-import RestaurantDetailModal from './components/Aside/RestaurantDetailModal.jsx';
-import AddRestaurantModal from './components/Aside/AddRestaurantModal.jsx';
+import HomeHeader from './components/Header/HomeHeader';
+import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter';
+import RestaurantList from './components/Main/RestaurantList';
+import RestaurantDetailModal from './components/Aside/RestaurantDetailModal';
+import AddRestaurantModal from './components/Aside/AddRestaurantModal';
 
 function App() {
   return (
