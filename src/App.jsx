@@ -8,20 +8,23 @@ import AddRestaurantModal from './components/Aside/AddRestaurantModal';
 import restaurant from './data/restaurantsData';
 
 function App() {
-  const [filteredRestaurants] = useState(restaurant);
+  const [filteredRestaurants, setfilteredRestaurants] = useState(restaurant);
 
   return (
     <div className={styles.app}>
       <HomeHeader />
 
       <main>
-        <RestaurantCategoryFilter />
+        <RestaurantCategoryFilter
+          restaurants={restaurant}
+          setfilteredRestaurants={setfilteredRestaurants}
+        />
         <RestaurantList restaurants={filteredRestaurants} />
       </main>
 
       <article>
-        <RestaurantDetailModal />
-        <AddRestaurantModal />
+        {/* <RestaurantDetailModal />
+        <AddRestaurantModal /> */}
       </article>
     </div>
   );
