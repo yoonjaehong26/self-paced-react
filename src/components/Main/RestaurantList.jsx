@@ -1,19 +1,16 @@
-import styles from './RestrauantList.module.css';
+import styles from './restaurantList.module.css';
 import RestaurantItem from './RestaurantItem';
 
-function RestrauantList() {
+function RestaurantList({ restaurants }) {
   return (
     <section className={styles.restaurantListContainer}>
       <ul className={styles.restaurantList}>
-        <RestaurantItem />
-        <RestaurantItem />
-        <RestaurantItem />
-        <RestaurantItem />
-        <RestaurantItem />
-        <RestaurantItem />
+        {restaurants.map((restaurant) => (
+          <RestaurantItem key={restaurant.id} restaurant={restaurant} />
+        ))}
       </ul>
     </section>
   );
 }
 
-export default RestrauantList;
+export default RestaurantList;
