@@ -1,4 +1,3 @@
-import './App.css';
 import styles from './App.module.css';
 import HomeHeader from './components/Header/HomeHeader.jsx';
 import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter.jsx';
