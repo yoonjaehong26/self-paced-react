@@ -1,29 +1,28 @@
-import "./App.css";
-import styles from "./App.module.css";
-import HomeHeader from "./components/Header/HomeHeader.jsx";
-import RestaurantCategoryFilter from "./components/Main/RestaurantCategoryFilter.jsx";
-import RestrauantList from "./components/Main/RestrauantList.jsx";
-import RestaurantDetailModal from "./components/Aside/RestaurantDetailModal.jsx";
-import AddRestaurantModal from "./components/Aside/AddRestaurantModal.jsx";
+import './App.css';
+import styles from './App.module.css';
+import HomeHeader from './components/Header/HomeHeader.jsx';
+import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter.jsx';
+import RestrauantList from './components/Main/RestrauantList.jsx';
+import RestaurantDetailModal from './components/Aside/RestaurantDetailModal.jsx';
+import AddRestaurantModal from './components/Aside/AddRestaurantModal.jsx';
 
 function App() {
   return (
-    <>
+    <div className={styles.app}>
       <header>
         <HomeHeader />
       </header>
 
       <main>
-        <RestaurantCategoryFilter></RestaurantCategoryFilter>
-        <RestrauantList></RestrauantList>
+        <RestaurantCategoryFilter />
+        <RestrauantList />
       </main>
 
       <article>
-        {/* <RestaurantDetailModal></RestaurantDetailModal>
-      <AddRestaurantModal></AddRestaurantModal> */}
+        <RestaurantDetailModal />
+        <AddRestaurantModal />
       </article>
-    </>
+    </div>
   );
 }
-
 export default App;

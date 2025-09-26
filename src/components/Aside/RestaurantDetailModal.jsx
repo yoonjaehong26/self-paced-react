@@ -1,9 +1,9 @@
-import styles from "./RestaurantModal.module.css";
+import styles from './RestaurantModal.module.css';
 
-function RestaurantDetailModal(){
-    return(
-         <div className={`${styles.modal} ${styles.modalOpen}`}>
-      <div className={styles.modalBackdrop}></div>
+function RestaurantDetailModal() {
+  return (
+    <div className={`${styles.modal} ${styles.modalOpen}`}>
+      <div className={styles.modalBackdrop} />
       <div className={styles.modalContainer}>
         <h2 className={`${styles.modalTitle} text-title`}>음식점 이름</h2>
         <div className={styles.restaurantInfo}>
@@ -15,7 +15,7 @@ function RestaurantDetailModal(){
         </div>
       </div>
     </div>
-    );
+  );
 }
 
 export default RestaurantDetailModal;
