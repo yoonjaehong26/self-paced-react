@@ -71,7 +71,6 @@ function RestrauantList() {
         </li>
       </ul>
     </section>
-
   );
 }
 

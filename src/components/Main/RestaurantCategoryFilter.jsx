@@ -1,4 +1,4 @@
-import styles from "./RestaurantCategoryFilter.module.css";
+import styles from './RestaurantCategoryFilter.module.css';
 
 function RestaurantCategoryFilter() {
   return (
