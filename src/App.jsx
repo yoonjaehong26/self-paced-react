@@ -1,7 +1,7 @@
 import styles from './App.module.css';
 import HomeHeader from './components/Header/HomeHeader.jsx';
 import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter.jsx';
-import RestrauantList from './components/Main/RestrauantList.jsx';
+import RestaurantList from './components/Main/RestaurantList.jsx';
 import RestaurantDetailModal from './components/Aside/RestaurantDetailModal.jsx';
 import AddRestaurantModal from './components/Aside/AddRestaurantModal.jsx';
 
@@ -14,7 +14,7 @@ function App() {
 
       <main>
         <RestaurantCategoryFilter />
-        <RestrauantList />
+        <RestaurantList />
       </main>
 
       <article>
