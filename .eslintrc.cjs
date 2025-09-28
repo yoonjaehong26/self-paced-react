@@ -21,5 +21,11 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "rules": {
+    "jsx-a11y/label-has-for": "off" // <label> 태그가
+    //  HtmlFor 값과 input id 값을 연결해서 control을 연결하는 방식과 
+    //  for 속성 또는 htmlFor 속 컨트롤할 input 요소를 감싸는 두 방식 중 첫번째 방식을 준수하지만 두번째방식은 태그 구조가 달라져 
+    //예외처리 하기로 함
+  }
   },
 };
