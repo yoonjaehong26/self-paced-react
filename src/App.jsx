@@ -8,9 +8,9 @@ import AddRestaurantModal from './components/Aside/AddRestaurantModal.jsx';
 function App() {
   return (
     <div className={styles.app}>
-      <header>
+      <>
         <HomeHeader />
-      </header>
+      </>
 
       <main>
         <RestaurantCategoryFilter />
