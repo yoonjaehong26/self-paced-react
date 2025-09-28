@@ -23,8 +23,8 @@ function App() {
       </main>
 
       <article>
-        {/* <RestaurantDetailModal />
-        <AddRestaurantModal /> */}
+        <RestaurantDetailModal />
+        <AddRestaurantModal />
       </article>
     </div>
   );
