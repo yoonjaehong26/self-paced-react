@@ -1,11 +1,10 @@
 import styles from './RestaurantModal.module.css';
+import Modal from '../UI/Modal';
 
 function AddRestaurantModal() {
   return (
 
-    <div className={`${styles.modal} ${styles.modalOpen}`}>
-      <div className={styles.modalBackdrop} />
-      <div className={styles.modalContainer}>
+  <Modal>
         <h2 className={`${styles.modalTitle} text-title`}>새로운 음식점</h2>
         <form>
           <div className={`${styles.formItem} ${styles.formItemRequired}`}>
@@ -36,8 +35,7 @@ function AddRestaurantModal() {
             <button className={`${styles.button} ${styles.buttonPrimary} text-caption`}>추가하기</button>
           </div>
         </form>
-      </div>
-    </div>
+    </Modal> 
   );
 }
 
