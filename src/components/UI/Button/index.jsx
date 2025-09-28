@@ -1,6 +1,6 @@
-import styles from './button.module.css';
+import styles from './Button.module.css';
 
-function button() {
+function Button() {
   return (
     <button type="button" className={styles.button} aria-label="button">
       <img src="templates\add-button.png" alt="button" />
@@ -8,4 +8,4 @@ function button() {
   );
 }
 
-export default button;
+export default Button;

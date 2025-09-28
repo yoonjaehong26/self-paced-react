@@ -1,4 +1,4 @@
-import styles from './restaurantList.module.css';
+import styles from './RestaurantList.module.css';
 import RestaurantItem from './RestaurantItem';
 
 function RestaurantList({ restaurants }) {
