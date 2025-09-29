@@ -33,7 +33,7 @@ function AddRestaurantModal() {
           </div>
 
           <div className={styles.buttonContainer}>
-            <button className={`${styles.button} ${styles.buttonPrimary} text-caption`}>추가하기</button>
+            <button type="button" className={`${styles.button} ${styles.buttonPrimary} text-caption`}>추가하기</button>
           </div>
         </form>
       </div>

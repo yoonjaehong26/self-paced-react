@@ -1,5 +1,5 @@
- import styles from './HomeHeader.module.css'
- 
+import styles from './HomeHeader.module.css';
+
 function HomeHeader() {
   return (
     <header className={styles.gnb}>

@@ -1,4 +1,4 @@
-import styles from "./RestaurantModal.module.css";
+import styles from './RestaurantModal.module.css';
 
 function RestaurantDetailModal() {
   return (
@@ -11,7 +11,7 @@ function RestaurantDetailModal() {
         </div>
 
         <div className={styles.buttonContainer}>
-          <button className={`${styles.button} ${styles.buttonPrimary} text-caption`}>닫기</button>
+          <button type="button" className={`${styles.button} ${styles.buttonPrimary} text-caption`}>닫기</button>
         </div>
       </div>
     </div>
