@@ -1,18 +1,18 @@
 import styles from './RestaurantCategoryFilter.module.css';
 import Filter from '../../UI/Filter';
 
-function RestaurantCategoryFilter({ restaurants, setfilteredRestaurants }) {
+function RestaurantCategoryFilter({ restaurants,setFilteredRestaurants }) {
   const CATEGORIES = ['전체', '한식', '중식', '일식', '양식', '아시안', '기타'];
   const handleFilterChange = (e) => {
     const selectedCategory = e.target.value;
 
     if (selectedCategory === '전체') {
-      setfilteredRestaurants(restaurants);
+      setFilteredRestaurants(restaurants);
     } else {
       const SelectedRestaurants = restaurants.filter(
         (restaurant) => restaurant.category === selectedCategory,
       );
-      setfilteredRestaurants(SelectedRestaurants);
+      setFilteredRestaurants(SelectedRestaurants);
     }
   };
 
