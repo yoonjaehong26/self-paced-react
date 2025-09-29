@@ -9,10 +9,10 @@ function RestaurantCategoryFilter({ restaurants,setFilteredRestaurants }) {
     if (selectedCategory === '전체') {
       setFilteredRestaurants(restaurants);
     } else {
-      const SelectedRestaurants = restaurants.filter(
+      const selectedRestaurants = restaurants.filter(
         (restaurant) => restaurant.category === selectedCategory,
       );
-      setFilteredRestaurants(SelectedRestaurants);
+      setFilteredRestaurants(selectedRestaurants);
     }
   };
 
