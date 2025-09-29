@@ -8,7 +8,7 @@ import AddRestaurantModal from './components/Aside/AddRestaurantModal';
 import restaurant from './data/restaurantsData';
 
 function App() {
-  const [filteredRestaurants, setfilteredRestaurants] = useState(restaurant);
+  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurant);
 
   return (
     <div className={styles.app}>
@@ -19,7 +19,7 @@ function App() {
       <main>
         <RestaurantCategoryFilter
           restaurants={restaurant}
-          setfilteredRestaurants={setfilteredRestaurants}
+          setFilteredRestaurants={setFilteredRestaurants}
         />
         <RestaurantList restaurants={filteredRestaurants} />
       </main>
