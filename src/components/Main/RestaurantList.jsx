@@ -1,6 +1,6 @@
-import styles from "./RestrauantList.module.css";
+import styles from "./RestaurantList.module.css";
     
-function RestrauantList() {
+function RestaurantList() {
   return (
      <section className={styles.restaurantListContainer}>
       <ul className={styles.restaurantList}>
@@ -74,4 +74,4 @@ function RestrauantList() {
   );
 }
 
-export default RestrauantList;
+export default RestaurantList;
