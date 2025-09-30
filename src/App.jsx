@@ -11,9 +11,9 @@ function App() {
 
   return (
     <div>
-      <header>
+      <>
         <HomeHeader />
-      </header>
+      </>
 
       <main>
         <RestaurantCategoryFilter
@@ -23,10 +23,10 @@ function App() {
         <RestaurantList restaurants={filteredRestaurants} />
       </main>
 
-      <article>
+      <>
         <RestaurantDetailModal />
         <AddRestaurantModal />
-      </article>
+      </>
     </div>
   );
 }
