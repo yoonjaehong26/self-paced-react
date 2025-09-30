@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import styles from './App.module.css';
 import HomeHeader from './components/Header/HomeHeader';
 import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter';
 import RestaurantList from './components/Main/RestaurantList';
@@ -11,7 +10,7 @@ function App() {
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
 
   return (
-    <div className={styles.app}>
+    <div>
       <header>
         <HomeHeader />
       </header>
