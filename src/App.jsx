@@ -1,7 +1,25 @@
-import "./App.css";
+import styles from './App.module.css';
+import HomeHeader from './components/Header/HomeHeader';
+import RestaurantCategoryFilter from './components/Main/RestaurantCategoryFilter';
+import RestaurantList from './components/Main/RestaurantList';
+import RestaurantDetailModal from './components/Aside/RestaurantDetailModal';
+import AddRestaurantModal from './components/Aside/AddRestaurantModal';
 
 function App() {
-  return <h1>Self-Paced React</h1>;
-}
+  return (
+    <div className={styles.app}>
+      <HomeHeader />
 
+      <main>
+        <RestaurantCategoryFilter />
+        <RestaurantList />
+      </main>
+
+      <article>
+        <RestaurantDetailModal />
+        <AddRestaurantModal />
+      </article>
+    </div>
+  );
+}
 export default App;
