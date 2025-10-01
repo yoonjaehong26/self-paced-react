@@ -7,7 +7,11 @@ import AddRestaurantModal from './components/Aside/AddRestaurantModal';
 import restaurants from './data/restaurantsData';
 
 function App() {
-  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
+  const [selectedCategory, setSelectedCategory] = useState('전체');
+
+  const filteredRestaurants = selectedCategory === '전체'
+    ? restaurants
+    : restaurants.filter((e) => e.category === selectedCategory);
 
   return (
     <div>
@@ -16,8 +20,7 @@ function App() {
 
       <main>
         <RestaurantCategoryFilter
-          restaurants={restaurants}
-          setFilteredRestaurants={setFilteredRestaurants}
+          setSelectedCategory={setSelectedCategory}
         />
         <RestaurantList restaurants={filteredRestaurants} />
       </main>
