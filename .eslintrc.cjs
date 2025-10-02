@@ -5,12 +5,18 @@ module.exports = {
     "eslint:recommended",
     "airbnb",
     "airbnb/hooks", // 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'plugin:react-hooks/recommended'가 여기에 포함됩니다.
+    "airbnb",
+    "airbnb/hooks", // 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'plugin:react-hooks/recommended'가 여기에 포함됩니다.
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh"],
   rules: {
+    'linebreak-style': 0,
+    "react/react-in-jsx-scope": "off",
+    'jsx-a11y/label-has-associated-control': 'off', 
+     "react/jsx-no-target-blank": "off",
     'linebreak-style': 0,
     "react/react-in-jsx-scope": "off",
     'jsx-a11y/label-has-associated-control': 'off', 
